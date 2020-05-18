@@ -1,0 +1,177 @@
+/***** BASE STYLES *****/
+
+body {
+    background: #ffffff;
+    font-family: "montserrat";
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h1{
+    font-size: 28px;
+ }
+
+h2{
+    color: #77a466;
+    font-size: 22px;
+}
+h3{
+    font-size: 14px;
+}
+h4{
+    font-size: 12 px;
+}
+p{
+    color: #000000;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 0 30px;
+}
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    /***** what does 0 auto actually do for me? *****/
+}
+
+.third-width {
+    width: 399px;
+    float: left;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header {
+    padding-top: 47px;
+}
+
+h1{
+    display: inline;
+    /***** display-inline: other options? What does this mean? "With display: inline:, the width, height, margin-top, margin-bottom, and float properties have no effect.  *****/
+}
+h1 span {
+    color: #77a466;
+}
+
+nav {
+    float: right; 
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+/***** why set these values if they are just going to be 0? *****/
+}
+
+nav ul li a {
+    color: #77a466;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 25px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/***** WELCOME *****/
+
+#welcome {
+    padding: 40px 0px;
+}
+
+
+#welcome #img-hero{
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
+}
+
+h2 {
+    color: #77a466;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 20px 0 px;
+}
+
+#welcome p{
+    line-height: 25px;
+    padding-left: 0;
+}
+
+/***** FEATURE CONTENT *****/
+
+#feature_content {
+    height: auto;
+    border-top: 1px solid #dedbdc; 
+}
+
+.third-width{
+    height: auto;
+}
+
+/***** SPECIALS *****/
+
+#specials_header {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+#specials ul{
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+#specials ul li {
+    color: #77a466;
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+/***** REVIEWS *****/
+
+#reviews {
+    border-left: 1px solid #dedbdc;
+    border-right: 1px solid #dedbdc;
+}
+
+#reviews h3{
+    padding: 10px 30px;
+}
+
+#reviews p{
+    line-height: 28px;
+}
+
+/***** CONTACT *****/
+
+#contact h3{
+    padding: 10px 30px;
+}
+#address{
+    line-height: 30px;
+    margin-top: 0;
+}
+
+/***** FOOTER *****/
+
+#footer {
+    border-top: 1px solid #dedbdc;
+    height: 5opx;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+}
+
+h4 span {
+    color: #77a466;
+    font-family: "Dancing Script";
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: lowercase;
+}
